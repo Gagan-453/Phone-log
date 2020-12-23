@@ -1,7 +1,7 @@
 import sqlite3 as sq
 conn = sq.connect(database='phone_log.db')
 c = conn.cursor()
-c.execute("SELECT * from user_data")
+c.execute("SELECT name FROM sqlite_master WHERE type='table';")
 
 print(c.fetchall())
 conn.close()
