@@ -1,0 +1,5 @@
+This application is made to organise your contacts efficiently.
+You can also  store your personal infomation safely.
+You can create multiple accounts with passwords.
+You can delete your account if you wish.
+You can also recover your password if forgot with security questions.
